@@ -1,0 +1,15 @@
+{
+    "name": "mohammed/med-app-skeleton",
+    "description": "The skeleton application for the Mohammed PHP Framework.",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "mohammed/php-boilerplate": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/Application/",
+            "Domain\\": "src/Domain/"
+        }
+    }
+}
